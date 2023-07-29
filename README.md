@@ -1,6 +1,6 @@
 # AlphaBot2
 
-Rozšíření pro AlphaBot2
+Rozsireni pro AlphaBot2
 
 ## License
 
