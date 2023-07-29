@@ -4,9 +4,9 @@
  */
 
 enum Motors {
-    //% block="levý"
+    //% block="M1"
     M1 = 0x1,
-    //% block="pravý"
+    //% block="M2"
     M2 = 0x2,
 }
 
