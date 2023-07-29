@@ -22,11 +22,11 @@ enum Dir {
     forward = 0x1,
     //% block="Vzad"
     backward = 0x2,
-    //% block="Otoč vpravo"
+    //% block="Vpravo"
     turnRight = 0x3,
-    //% block="Otoč vlevo"
+    //% block="Vlevo"
     turnLeft = 0x4,
-    //% block="Stop"
+    //% block="Stůj"
     stop = 0x5,
 }
 
@@ -202,7 +202,7 @@ namespace AlphaBot2 {
 	 * @param speed [-255-255] speed of motor; eg: 150
 	 * @param time dalay second time; eg: 2
 	*/
-    //% blockId=AlphaBot2_run_delay block="|%index|rychlostí %speed|po dobu %time|sec"
+    //% blockId=AlphaBot2_run_delay block="|%index|rychlostí %speed|po dobu %time|s"
     //% speed eg: 150
     //% weight=90
     //% speed.min=-255 speed.max=255 eg: 150

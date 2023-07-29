@@ -1,6 +1,6 @@
-# AlphaBot2
+# AlphaBot2cz
 
-Rozsireni pro AlphaBot2
+Rozšíření pro AlphaBot2
 
 ## License
 
@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-AlphaBot2=github.com/lsvejdag8mb/pxt-AlphaBot2-cz
+AlphaBot2cz=github.com/lsvejdag8mb/pxt-AlphaBot2-cz
 ```
