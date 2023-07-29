@@ -11,20 +11,20 @@ enum Motors {
 }
 
 enum Sensor {
-    //% block="Levy"
+    //% block="Levý"
     Left = 0x1,
-    //% block="Pravy"
+    //% block="Pravý"
     Right = 0x2,
 }
 
 enum Dir {
-    //% block="Vpred"
+    //% block="Vpřed"
     forward = 0x1,
     //% block="Vzad"
     backward = 0x2,
-    //% block="Otocvpravo"
+    //% block="Otoč vpravo"
     turnRight = 0x3,
-    //% block="Otocvlevo"
+    //% block="Otoč vlevo"
     turnLeft = 0x4,
     //% block="Stop"
     stop = 0x5,
