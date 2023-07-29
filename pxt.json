@@ -1,6 +1,6 @@
 {
     "name": "AlphaBot2",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Rozsireni pro Waveshare AlphaBot2",
     "license": "MIT",
     "dependencies": {
