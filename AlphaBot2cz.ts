@@ -11,9 +11,9 @@ enum Motors {
 }
 
 enum Sensor {
-    //% block="Levý"
+    //% block="levý"
     Left = 0x1,
-    //% block="Pravý"
+    //% block="pravý"
     Right = 0x2,
 }
 
@@ -125,7 +125,7 @@ namespace AlphaBot2 {
         buf[4] = (off >> 8) & 0xff;
         pins.i2cWriteBuffer(PCA9685_ADDRESS, buf);
     }
-    //% blockId=AlphaBot2_motor_run block="Motor|%index|speed %speed"
+    //% blockId=AlphaBot2_motor_run block="Motor|%index|rychlost %speed"
     //% speed eg: 150
     //% weight=100
     //% speed.min=-255 speed.max=255
@@ -167,7 +167,7 @@ namespace AlphaBot2 {
 	 * Execute single motors
 	 * @param speed [-255-255] speed of motor; eg: 150
 	*/
-    //% blockId=AlphaBot2_run block="|%index|speed %speed"
+    //% blockId=AlphaBot2_run block="|%index|rychlostí %speed"
     //% speed eg: 150
     //% weight=95
     //% speed.min=-255 speed.max=255 eg: 150
@@ -202,7 +202,7 @@ namespace AlphaBot2 {
 	 * @param speed [-255-255] speed of motor; eg: 150
 	 * @param time dalay second time; eg: 2
 	*/
-    //% blockId=AlphaBot2_run_delay block="|%index|speed %speed|for %time|sec"
+    //% blockId=AlphaBot2_run_delay block="|%index|rychlostí %speed|po dobu %time|sec"
     //% speed eg: 150
     //% weight=90
     //% speed.min=-255 speed.max=255 eg: 150
@@ -213,7 +213,7 @@ namespace AlphaBot2 {
         Run(Dir.stop, 0);
     }
 
-    //% blockId=AlphaBot2_infrared block="IRsenzor |%index"
+    //% blockId=AlphaBot2_infrared block="Infračervený senzor:překážka |%index"
     //% weight=80
     export function Infrared(index: Sensor): boolean {
         let value = true;
@@ -231,7 +231,7 @@ namespace AlphaBot2 {
         return value;
     }
 
-    //% blockId=AlphaBot2_ultrasonic block="UZsenzor"
+    //% blockId=AlphaBot2_ultrasonic block="Ultrazvukový senzor:překážka"
     //% weight=80
     export function Ultrasonic(): number {
 
