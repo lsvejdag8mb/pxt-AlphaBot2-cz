@@ -1,6 +1,6 @@
 {
     "name": "AlphaBot2",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Rozsireni pro Waveshare AlphaBot2",
     "license": "MIT",
     "dependencies": {
@@ -8,7 +8,7 @@
     },
     "files": [
         "README.md",
-        "AlphaBot2.ts",
+        "AlphaBot2cz.ts",
         "_locales/zh/AlphaBot2-strings.json"
     ],
     "testFiles": [
