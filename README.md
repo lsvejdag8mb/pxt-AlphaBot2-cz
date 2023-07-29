@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-AlphaBot2=pxt-AlphaBot2.damto.cz
+AlphaBot2=github.com/lsvejdag8mb/pxt-AlphaBot2-cz
 ```
