@@ -22,9 +22,9 @@ enum Dir {
     forward = 0x1,
     //% block="Vzad"
     backward = 0x2,
-    //% block="Otoč vpravo"
+    //% block="Otočvpravo"
     turnRight = 0x3,
-    //% block="Otoč vlevo"
+    //% block="Otočvlevo"
     turnLeft = 0x4,
     //% block="Stop"
     stop = 0x5,
@@ -164,7 +164,7 @@ namespace AlphaBot2 {
         }
     }
 	/**
-	 * Execute single motors 
+	 * Execute single motors
 	 * @param speed [-255-255] speed of motor; eg: 150
 	*/
     //% blockId=AlphaBot2_run block="|%index|speed %speed"
@@ -198,7 +198,7 @@ namespace AlphaBot2 {
     }
 
 	/**
-	 * Execute single motors 
+	 * Execute single motors
 	 * @param speed [-255-255] speed of motor; eg: 150
 	 * @param time dalay second time; eg: 2
 	*/
@@ -283,7 +283,7 @@ namespace AlphaBot2 {
 	    for (j = 0; j < 6; j++) {
                 pins.digitalWritePin(DigitalPin.P13, 1);
                 pins.digitalWritePin(DigitalPin.P13, 0);
-		
+
             }
         }
         //pins.digitalWritePin(DigitalPin.P16, 1);
@@ -295,7 +295,7 @@ namespace AlphaBot2 {
     }
 
     //% blockId=AlphaBot2_SensorCalibrated block="SensorCalibrated"
-    //% weight=70 
+    //% weight=70
     export function SensorCalibrated(): void {
         let i = 0;
         let j = 0;
@@ -424,4 +424,4 @@ namespace AlphaBot2 {
 
         return last_value;
     }
-}   
+}
