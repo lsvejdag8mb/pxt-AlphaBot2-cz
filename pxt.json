@@ -1,7 +1,7 @@
 {
-    "name": "AlphaBot2",
+    "name": "AlphaBot2 (CZ)",
     "version": "0.0.0",
-    "description": "Extension for waveshare AlphaBot2",
+    "description": "Rozšíření pro Waveshare AlphaBot2",
     "license": "MIT",
     "dependencies": {
         "core": "*"
