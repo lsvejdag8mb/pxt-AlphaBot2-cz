@@ -1,6 +1,6 @@
 # AlphaBot2
 
-Extension for Waveshare AlphaBot2
+Rozšíření pro AlphaBot2
 
 ## License
 
