@@ -11,9 +11,9 @@ enum Motors {
 }
 
 enum Sensor {
-    //% block="Left"
+    //% block="Levy"
     Left = 0x1,
-    //% block="Right"
+    //% block="Pravy"
     Right = 0x2,
 }
 
