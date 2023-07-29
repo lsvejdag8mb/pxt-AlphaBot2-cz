@@ -22,9 +22,9 @@ enum Dir {
     forward = 0x1,
     //% block="Vzad"
     backward = 0x2,
-    //% block="Otoč vpravo"
+    //% block="Otočvpravo"
     turnRight = 0x3,
-    //% block="Otoč vlevo"
+    //% block="Otočvlevo"
     turnLeft = 0x4,
     //% block="Stop"
     stop = 0x5,
