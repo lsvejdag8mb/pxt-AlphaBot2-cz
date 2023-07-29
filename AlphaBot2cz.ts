@@ -11,9 +11,9 @@ enum Motors {
 }
 
 enum Sensor {
-    //% block="levý"
+    //% block="vlevo"
     Left = 0x1,
-    //% block="pravý"
+    //% block="vpravo"
     Right = 0x2,
 }
 
@@ -213,7 +213,7 @@ namespace AlphaBot2 {
         Run(Dir.stop, 0);
     }
 
-    //% blockId=AlphaBot2_infrared block="Infračervený senzor:překážka |%index"
+    //% blockId=AlphaBot2_infrared block="Infračervený senzor: překážka |%index"
     //% weight=80
     export function Infrared(index: Sensor): boolean {
         let value = true;
@@ -231,7 +231,7 @@ namespace AlphaBot2 {
         return value;
     }
 
-    //% blockId=AlphaBot2_ultrasonic block="Ultrazvukový senzor:překážka"
+    //% blockId=AlphaBot2_ultrasonic block="Ultrazvukový senzor: vzdálenost překážky"
     //% weight=80
     export function Ultrasonic(): number {
 
