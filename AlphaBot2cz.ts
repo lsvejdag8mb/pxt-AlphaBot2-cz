@@ -295,7 +295,7 @@ namespace AlphaBot2 {
     }
 
     //% blockId=AlphaBot2_SensorCalibrated block="SensorCalibrated"
-    //% weight=70
+    //% weight=70 advanced=true
     export function SensorCalibrated(): void {
         let i = 0;
         let j = 0;
@@ -380,7 +380,7 @@ namespace AlphaBot2 {
     }
 
     //% blockId=AlphaBot2_readLine block="ReadLine"
-    //% weight=10
+    //% weight=10 advanced=true
     export function readLine(): number {
 
         let i = 0;
